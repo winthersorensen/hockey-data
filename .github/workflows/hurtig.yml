@@ -1,0 +1,30 @@
+name: Hurtig opdatering
+on:
+  schedule:
+    # Hverdage kl. 16-23 dansk tid
+    - cron: '*/5 15-22 * * 1-5'
+    # Weekend kl. 11-20 dansk tid
+    - cron: '*/5 10-19 * * 0,6'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: opdater
+  cancel-in-progress: false
+jobs:
+  hurtig:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Hent Divisionen og Metal Ligaen
+        run: python hurtig.py
+      - name: Gem hvis ændret
+        run: |
+          git config user.name "hockey-bot"
+          git config user.email "hockey-bot@users.noreply.github.com"
+          git add hockeydata.json
+          git diff --cached --quiet || (git commit -m "Hurtig opdatering" && git push)
