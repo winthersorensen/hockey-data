@@ -1,5 +1,5 @@
 {
-  "hentet_utc": "2026-11-26T21:38:32+00:00",
+  "hentet_utc": "2026-11-26T21:48:34+00:00",
   "rækker": [
     {
       "id": "metal-ligaen",
@@ -26854,18 +26854,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-rodovre-aalborg-2026-09-13-76485",
-          "dato": "2026-09-13",
-          "kilde": "https://boxplay.app/da/game/dk-rodovre-aalborg-2026-09-13-76485",
-          "kampstart_lokal": "2026-09-13T12:35",
-          "hjemme": "Rødovre",
-          "ude": "Aalborg",
-          "status": "afsluttet",
-          "mål_hjemme": 2,
-          "mål_ude": 5,
-          "periodekode": null
-        },
-        {
           "id": "dk-rungsted-esbjerg-2026-09-13-76488",
           "dato": "2026-09-13",
           "kilde": "https://boxplay.app/da/game/dk-rungsted-esbjerg-2026-09-13-76488",
@@ -26875,6 +26863,18 @@
           "status": "afsluttet",
           "mål_hjemme": 6,
           "mål_ude": 4,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rodovre-aalborg-2026-09-13-76485",
+          "dato": "2026-09-13",
+          "kilde": "https://boxplay.app/da/game/dk-rodovre-aalborg-2026-09-13-76485",
+          "kampstart_lokal": "2026-09-13T12:35",
+          "hjemme": "Rødovre",
+          "ude": "Aalborg",
+          "status": "afsluttet",
+          "mål_hjemme": 2,
+          "mål_ude": 5,
           "periodekode": null
         },
         {
@@ -27478,18 +27478,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-esbjerg-rodovre-2026-10-25-76439",
-          "dato": "2026-10-25",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-rodovre-2026-10-25-76439",
-          "kampstart_lokal": "2026-10-25T12:30",
-          "hjemme": "Esbjerg",
-          "ude": "Rødovre",
-          "status": "afsluttet",
-          "mål_hjemme": 2,
-          "mål_ude": 5,
-          "periodekode": null
-        },
-        {
           "id": "dk-aalborg-gentofte-2026-10-25-76441",
           "dato": "2026-10-25",
           "kilde": "https://boxplay.app/da/game/dk-aalborg-gentofte-2026-10-25-76441",
@@ -27502,15 +27490,15 @@
           "periodekode": null
         },
         {
-          "id": "dk-herning-kha-2026-10-25-76440",
+          "id": "dk-esbjerg-rodovre-2026-10-25-76439",
           "dato": "2026-10-25",
-          "kilde": "https://boxplay.app/da/game/dk-herning-kha-2026-10-25-76440",
-          "kampstart_lokal": "2026-10-25T13:30",
-          "hjemme": "Herning",
-          "ude": "KHA",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-rodovre-2026-10-25-76439",
+          "kampstart_lokal": "2026-10-25T12:30",
+          "hjemme": "Esbjerg",
+          "ude": "Rødovre",
           "status": "afsluttet",
-          "mål_hjemme": 9,
-          "mål_ude": 2,
+          "mål_hjemme": 2,
+          "mål_ude": 5,
           "periodekode": null
         },
         {
@@ -27523,6 +27511,18 @@
           "status": "afsluttet",
           "mål_hjemme": 2,
           "mål_ude": 3,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herning-kha-2026-10-25-76440",
+          "dato": "2026-10-25",
+          "kilde": "https://boxplay.app/da/game/dk-herning-kha-2026-10-25-76440",
+          "kampstart_lokal": "2026-10-25T13:30",
+          "hjemme": "Herning",
+          "ude": "KHA",
+          "status": "afsluttet",
+          "mål_hjemme": 9,
+          "mål_ude": 2,
           "periodekode": null
         },
         {
@@ -28450,24 +28450,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-frederikshavn-kha-2027-01-10-tbd",
-          "dato": "2027-01-10",
-          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-kha-2027-01-10-tbd",
-          "kampstart_lokal": "2027-01-10T13:30",
-          "hjemme": "Frederikshavn",
-          "ude": "KHA",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-herning-gladsaxe-2027-01-10-tbd",
           "dato": "2027-01-10",
           "kilde": "https://boxplay.app/da/game/dk-herning-gladsaxe-2027-01-10-tbd",
           "kampstart_lokal": "2027-01-10T13:30",
           "hjemme": "Herning",
           "ude": "Gladsaxe",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-frederikshavn-kha-2027-01-10-tbd",
+          "dato": "2027-01-10",
+          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-kha-2027-01-10-tbd",
+          "kampstart_lokal": "2027-01-10T13:30",
+          "hjemme": "Frederikshavn",
+          "ude": "KHA",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -28918,24 +28918,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-esbjerg-herlev-2027-02-20-tbd",
-          "dato": "2027-02-20",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herlev-2027-02-20-tbd",
-          "kampstart_lokal": "2027-02-20T16:00",
-          "hjemme": "Esbjerg",
-          "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-frederikshavn-2027-02-20-tbd",
           "dato": "2027-02-20",
           "kilde": "https://boxplay.app/da/game/dk-odense-frederikshavn-2027-02-20-tbd",
           "kampstart_lokal": "2027-02-20T16:00",
           "hjemme": "Odense",
           "ude": "Frederikshavn",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-herlev-2027-02-20-tbd",
+          "dato": "2027-02-20",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herlev-2027-02-20-tbd",
+          "kampstart_lokal": "2027-02-20T16:00",
+          "hjemme": "Esbjerg",
+          "ude": "Herlev",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
