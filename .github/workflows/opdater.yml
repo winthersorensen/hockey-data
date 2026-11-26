@@ -1,7 +1,12 @@
 name: Opdater hockeydata
 on:
   schedule:
-    - cron: '23 */3 * * *'
+    # Hverdage: hver halve time om aftenen (UTC 15-22 = kl. 16-23 dansk tid)
+    - cron: '7,37 15-22 * * 1-5'
+    # Weekend: hver halve time i kamptiden (UTC 10-19 = kl. 11-20 dansk tid)
+    - cron: '7,37 10-19 * * 0,6'
+    # Resten af døgnet: hver anden time
+    - cron: '23 */2 * * *'
   workflow_dispatch:
 permissions:
   contents: write
