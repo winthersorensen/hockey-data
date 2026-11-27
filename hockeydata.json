@@ -1,5 +1,5 @@
 {
-  "hentet_utc": "2026-11-27T22:47:11+00:00",
+  "hentet_utc": "2026-11-27T23:15:17+00:00",
   "rækker": [
     {
       "id": "metal-ligaen",
@@ -26794,18 +26794,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-herlev-odense-2026-09-12-76496",
-          "dato": "2026-09-12",
-          "kilde": "https://boxplay.app/da/game/dk-herlev-odense-2026-09-12-76496",
-          "kampstart_lokal": "2026-09-12T15:35",
-          "hjemme": "Herlev",
-          "ude": "Odense",
-          "status": "afsluttet",
-          "mål_hjemme": 5,
-          "mål_ude": 0,
-          "periodekode": null
-        },
-        {
           "id": "dk-rodovre-frederikshavn-2026-09-12-76491",
           "dato": "2026-09-12",
           "kilde": "https://boxplay.app/da/game/dk-rodovre-frederikshavn-2026-09-12-76491",
@@ -26814,6 +26802,18 @@
           "ude": "Frederikshavn",
           "status": "afsluttet",
           "mål_hjemme": 1,
+          "mål_ude": 0,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herlev-odense-2026-09-12-76496",
+          "dato": "2026-09-12",
+          "kilde": "https://boxplay.app/da/game/dk-herlev-odense-2026-09-12-76496",
+          "kampstart_lokal": "2026-09-12T15:35",
+          "hjemme": "Herlev",
+          "ude": "Odense",
+          "status": "afsluttet",
+          "mål_hjemme": 5,
           "mål_ude": 0,
           "periodekode": null
         },
@@ -26866,15 +26866,15 @@
           "periodekode": null
         },
         {
-          "id": "dk-rungsted-esbjerg-2026-09-13-76488",
+          "id": "dk-rodovre-aalborg-2026-09-13-76485",
           "dato": "2026-09-13",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-esbjerg-2026-09-13-76488",
+          "kilde": "https://boxplay.app/da/game/dk-rodovre-aalborg-2026-09-13-76485",
           "kampstart_lokal": "2026-09-13T12:35",
-          "hjemme": "Rungsted",
-          "ude": "Esbjerg",
+          "hjemme": "Rødovre",
+          "ude": "Aalborg",
           "status": "afsluttet",
-          "mål_hjemme": 6,
-          "mål_ude": 4,
+          "mål_hjemme": 2,
+          "mål_ude": 5,
           "periodekode": null
         },
         {
@@ -26890,15 +26890,15 @@
           "periodekode": null
         },
         {
-          "id": "dk-rodovre-aalborg-2026-09-13-76485",
+          "id": "dk-rungsted-esbjerg-2026-09-13-76488",
           "dato": "2026-09-13",
-          "kilde": "https://boxplay.app/da/game/dk-rodovre-aalborg-2026-09-13-76485",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-esbjerg-2026-09-13-76488",
           "kampstart_lokal": "2026-09-13T12:35",
-          "hjemme": "Rødovre",
-          "ude": "Aalborg",
+          "hjemme": "Rungsted",
+          "ude": "Esbjerg",
           "status": "afsluttet",
-          "mål_hjemme": 2,
-          "mål_ude": 5,
+          "mål_hjemme": 6,
+          "mål_ude": 4,
           "periodekode": null
         },
         {
@@ -27334,18 +27334,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-herlev-2026-10-11-76458",
-          "dato": "2026-10-11",
-          "kilde": "https://boxplay.app/da/game/dk-odense-herlev-2026-10-11-76458",
-          "kampstart_lokal": "2026-10-11T13:30",
-          "hjemme": "Odense",
-          "ude": "Herlev",
-          "status": "afsluttet",
-          "mål_hjemme": 4,
-          "mål_ude": 2,
-          "periodekode": null
-        },
-        {
           "id": "dk-herning-gladsaxe-2026-10-11-76457",
           "dato": "2026-10-11",
           "kilde": "https://boxplay.app/da/game/dk-herning-gladsaxe-2026-10-11-76457",
@@ -27354,6 +27342,18 @@
           "ude": "Gladsaxe",
           "status": "afsluttet",
           "mål_hjemme": 12,
+          "mål_ude": 2,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-herlev-2026-10-11-76458",
+          "dato": "2026-10-11",
+          "kilde": "https://boxplay.app/da/game/dk-odense-herlev-2026-10-11-76458",
+          "kampstart_lokal": "2026-10-11T13:30",
+          "hjemme": "Odense",
+          "ude": "Herlev",
+          "status": "afsluttet",
+          "mål_hjemme": 4,
           "mål_ude": 2,
           "periodekode": null
         },
@@ -28474,24 +28474,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-frederikshavn-kha-2027-01-10-tbd",
-          "dato": "2027-01-10",
-          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-kha-2027-01-10-tbd",
-          "kampstart_lokal": "2027-01-10T13:30",
-          "hjemme": "Frederikshavn",
-          "ude": "KHA",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-herning-gladsaxe-2027-01-10-tbd",
           "dato": "2027-01-10",
           "kilde": "https://boxplay.app/da/game/dk-herning-gladsaxe-2027-01-10-tbd",
           "kampstart_lokal": "2027-01-10T13:30",
           "hjemme": "Herning",
           "ude": "Gladsaxe",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-frederikshavn-kha-2027-01-10-tbd",
+          "dato": "2027-01-10",
+          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-kha-2027-01-10-tbd",
+          "kampstart_lokal": "2027-01-10T13:30",
+          "hjemme": "Frederikshavn",
+          "ude": "KHA",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -28942,24 +28942,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-esbjerg-herlev-2027-02-20-tbd",
-          "dato": "2027-02-20",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herlev-2027-02-20-tbd",
-          "kampstart_lokal": "2027-02-20T16:00",
-          "hjemme": "Esbjerg",
-          "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-frederikshavn-2027-02-20-tbd",
           "dato": "2027-02-20",
           "kilde": "https://boxplay.app/da/game/dk-odense-frederikshavn-2027-02-20-tbd",
           "kampstart_lokal": "2027-02-20T16:00",
           "hjemme": "Odense",
           "ude": "Frederikshavn",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-herlev-2027-02-20-tbd",
+          "dato": "2027-02-20",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herlev-2027-02-20-tbd",
+          "kampstart_lokal": "2027-02-20T16:00",
+          "hjemme": "Esbjerg",
+          "ude": "Herlev",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
