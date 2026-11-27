@@ -1,5 +1,5 @@
 {
-  "hentet_utc": "2026-11-27T13:59:13+00:00",
+  "hentet_utc": "2026-11-27T22:47:11+00:00",
   "rækker": [
     {
       "id": "metal-ligaen",
@@ -9,8 +9,8 @@
       "kilde": "https://metalligaen.dk/",
       "kampkilde": "https://s3.dualstack.eu-west-1.amazonaws.com/den.hokejovyzapis.cz/league-matches/2026/1.json",
       "stillingskilde": "https://s3.dualstack.eu-west-1.amazonaws.com/den.hokejovyzapis.cz/table/2026/1.json",
-      "kampkilde_opdateret_utc": "2026-11-27T00:00:19+00:00",
-      "stillingskilde_opdateret_utc": "2026-11-24T21:04:20+00:00",
+      "kampkilde_opdateret_utc": "2026-11-27T20:56:07+00:00",
+      "stillingskilde_opdateret_utc": "2026-11-27T20:55:24+00:00",
       "kampe": [
         {
           "id": "528",
@@ -1134,10 +1134,10 @@
           "kampstart_lokal": "2026-11-27T19:00",
           "hjemme": "Herlev Eagles",
           "ude": "Esbjerg Energy",
-          "status": "planlagt",
-          "kildestatus": "BEFORE_MATCH",
-          "mål_hjemme": null,
-          "mål_ude": null,
+          "status": "afsluttet",
+          "kildestatus": "AFTER_MATCH",
+          "mål_hjemme": 2,
+          "mål_ude": 3,
           "periodekode": null
         },
         {
@@ -1146,10 +1146,10 @@
           "kampstart_lokal": "2026-11-27T19:30",
           "hjemme": "Frederikshavn White Hawks",
           "ude": "Odense Bulldogs",
-          "status": "planlagt",
-          "kildestatus": "BEFORE_MATCH",
-          "mål_hjemme": null,
-          "mål_ude": null,
+          "status": "afsluttet",
+          "kildestatus": "AFTER_MATCH",
+          "mål_hjemme": 3,
+          "mål_ude": 1,
           "periodekode": null
         },
         {
@@ -1158,10 +1158,10 @@
           "kampstart_lokal": "2026-11-27T19:30",
           "hjemme": "Rødovre Mighty Bulls",
           "ude": "Rungsted Seier Capital",
-          "status": "planlagt",
-          "kildestatus": "BEFORE_MATCH",
-          "mål_hjemme": null,
-          "mål_ude": null,
+          "status": "afsluttet",
+          "kildestatus": "AFTER_MATCH",
+          "mål_hjemme": 5,
+          "mål_ude": 1,
           "periodekode": null
         },
         {
@@ -1170,10 +1170,10 @@
           "kampstart_lokal": "2026-11-27T19:30",
           "hjemme": "Aalborg Pirates",
           "ude": "Herning Blue Fox",
-          "status": "planlagt",
-          "kildestatus": "BEFORE_MATCH",
-          "mål_hjemme": null,
-          "mål_ude": null,
+          "status": "afsluttet",
+          "kildestatus": "AFTER_MATCH",
+          "mål_hjemme": 2,
+          "mål_ude": 0,
           "periodekode": null
         },
         {
@@ -2612,21 +2612,29 @@
             {
               "placering": 1,
               "hold": "Herning Blue Fox",
-              "kampe": 22,
+              "kampe": 23,
               "mål_for": 102,
-              "mål_imod": 35,
+              "mål_imod": 37,
               "point": 60
             },
             {
               "placering": 2,
               "hold": "Frederikshavn White Hawks",
-              "kampe": 20,
-              "mål_for": 67,
-              "mål_imod": 57,
-              "point": 40
+              "kampe": 21,
+              "mål_for": 70,
+              "mål_imod": 58,
+              "point": 43
             },
             {
               "placering": 3,
+              "hold": "Esbjerg Energy",
+              "kampe": 23,
+              "mål_for": 62,
+              "mål_imod": 75,
+              "point": 34
+            },
+            {
+              "placering": 4,
               "hold": "Sønderjyske Ishockey",
               "kampe": 21,
               "mål_for": 57,
@@ -2634,52 +2642,44 @@
               "point": 33
             },
             {
-              "placering": 4,
-              "hold": "Esbjerg Energy",
-              "kampe": 22,
-              "mål_for": 59,
-              "mål_imod": 73,
-              "point": 31
-            },
-            {
               "placering": 5,
               "hold": "Odense Bulldogs",
-              "kampe": 21,
-              "mål_for": 63,
-              "mål_imod": 61,
+              "kampe": 22,
+              "mål_for": 64,
+              "mål_imod": 64,
               "point": 29
             },
             {
               "placering": 6,
               "hold": "Rungsted Seier Capital",
-              "kampe": 21,
-              "mål_for": 58,
-              "mål_imod": 66,
+              "kampe": 22,
+              "mål_for": 59,
+              "mål_imod": 71,
               "point": 27
             },
             {
               "placering": 7,
               "hold": "Herlev Eagles",
-              "kampe": 19,
-              "mål_for": 55,
-              "mål_imod": 61,
+              "kampe": 20,
+              "mål_for": 57,
+              "mål_imod": 64,
               "point": 23
             },
             {
               "placering": 8,
               "hold": "Aalborg Pirates",
-              "kampe": 20,
-              "mål_for": 47,
+              "kampe": 21,
+              "mål_for": 49,
               "mål_imod": 60,
-              "point": 20
+              "point": 23
             },
             {
               "placering": 9,
               "hold": "Rødovre Mighty Bulls",
-              "kampe": 20,
-              "mål_for": 44,
-              "mål_imod": 73,
-              "point": 16
+              "kampe": 21,
+              "mål_for": 49,
+              "mål_imod": 74,
+              "point": 19
             }
           ]
         }
@@ -3161,24 +3161,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-falcons-rungsted-2026-12-13-tbd",
-          "dato": "2026-12-13",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-rungsted-2026-12-13-tbd",
-          "kampstart_lokal": "2026-12-13T08:00",
-          "hjemme": "Falcons",
-          "ude": "Rungsted",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-ksf-hvidovre-2026-12-13-tbd",
           "dato": "2026-12-13",
           "kilde": "https://boxplay.app/da/game/dk-ksf-hvidovre-2026-12-13-tbd",
           "kampstart_lokal": "2026-12-13T08:00",
           "hjemme": "KSF",
           "ude": "Hvidovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-falcons-rungsted-2026-12-13-tbd",
+          "dato": "2026-12-13",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-rungsted-2026-12-13-tbd",
+          "kampstart_lokal": "2026-12-13T08:00",
+          "hjemme": "Falcons",
+          "ude": "Rungsted",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -3317,18 +3317,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-falcons-gladsaxe-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-gladsaxe-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Falcons",
-          "ude": "Gladsaxe",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-hvidovre-falcons-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-hvidovre-falcons-2026-12-24-tbd",
@@ -3437,18 +3425,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-gladsaxe-yetis-falcons-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-falcons-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Gladsaxe Yetis",
-          "ude": "Falcons",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-gladsaxe-ksf-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-gladsaxe-ksf-2026-12-24-tbd",
@@ -3473,30 +3449,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-rungsted-gentofte-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-gentofte-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Gentofte",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-falcons-ksf-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-ksf-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Falcons",
-          "ude": "KSF",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-ksf-amager-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-ksf-amager-2026-12-24-tbd",
@@ -3509,12 +3461,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-amager-herlev-2026-12-24-tbd",
+          "id": "dk-gladsaxe-yetis-falcons-2026-12-24-tbd",
           "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-amager-herlev-2026-12-24-tbd",
+          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-falcons-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Amager",
-          "ude": "Herlev",
+          "hjemme": "Gladsaxe Yetis",
+          "ude": "Falcons",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -3526,6 +3478,18 @@
           "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-herlev-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Gladsaxe Yetis",
+          "ude": "Herlev",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-amager-herlev-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-amager-herlev-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Amager",
           "ude": "Herlev",
           "status": "planlagt",
           "mål_hjemme": null,
@@ -3665,18 +3629,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-gentofte-falcons-2027-01-10-tbd",
-          "dato": "2027-01-10",
-          "kilde": "https://boxplay.app/da/game/dk-gentofte-falcons-2027-01-10-tbd",
-          "kampstart_lokal": "2027-01-10T09:30",
-          "hjemme": "Gentofte",
-          "ude": "Falcons",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-gladsaxe-rungsted-2027-01-10-tbd",
           "dato": "2027-01-10",
           "kilde": "https://boxplay.app/da/game/dk-gladsaxe-rungsted-2027-01-10-tbd",
@@ -3773,24 +3725,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-falcons-herlev-2027-01-31-tbd",
-          "dato": "2027-01-31",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-herlev-2027-01-31-tbd",
-          "kampstart_lokal": "2027-01-31T08:00",
-          "hjemme": "Falcons",
-          "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-amager-hvidovre-2027-01-31-tbd",
           "dato": "2027-01-31",
           "kilde": "https://boxplay.app/da/game/dk-amager-hvidovre-2027-01-31-tbd",
           "kampstart_lokal": "2027-01-31T08:00",
           "hjemme": "Amager",
           "ude": "Hvidovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-falcons-herlev-2027-01-31-tbd",
+          "dato": "2027-01-31",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-herlev-2027-01-31-tbd",
+          "kampstart_lokal": "2027-01-31T08:00",
+          "hjemme": "Falcons",
+          "ude": "Herlev",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -3833,24 +3785,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-amager-rodovre-2027-02-07-tbd",
-          "dato": "2027-02-07",
-          "kilde": "https://boxplay.app/da/game/dk-amager-rodovre-2027-02-07-tbd",
-          "kampstart_lokal": "2027-02-07T08:00",
-          "hjemme": "Amager",
-          "ude": "Rødovre",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-falcons-hvidovre-2027-02-07-tbd",
           "dato": "2027-02-07",
           "kilde": "https://boxplay.app/da/game/dk-falcons-hvidovre-2027-02-07-tbd",
           "kampstart_lokal": "2027-02-07T08:00",
           "hjemme": "Falcons",
           "ude": "Hvidovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-amager-rodovre-2027-02-07-tbd",
+          "dato": "2027-02-07",
+          "kilde": "https://boxplay.app/da/game/dk-amager-rodovre-2027-02-07-tbd",
+          "kampstart_lokal": "2027-02-07T08:00",
+          "hjemme": "Amager",
+          "ude": "Rødovre",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -3929,24 +3881,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-ksf-herlev-2027-03-07-tbd",
-          "dato": "2027-03-07",
-          "kilde": "https://boxplay.app/da/game/dk-ksf-herlev-2027-03-07-tbd",
-          "kampstart_lokal": "2027-03-07T08:00",
-          "hjemme": "KSF",
-          "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-amager-gladsaxe-yetis-2027-03-07-tbd",
           "dato": "2027-03-07",
           "kilde": "https://boxplay.app/da/game/dk-amager-gladsaxe-yetis-2027-03-07-tbd",
           "kampstart_lokal": "2027-03-07T08:00",
           "hjemme": "Amager",
           "ude": "Gladsaxe Yetis",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-ksf-herlev-2027-03-07-tbd",
+          "dato": "2027-03-07",
+          "kilde": "https://boxplay.app/da/game/dk-ksf-herlev-2027-03-07-tbd",
+          "kampstart_lokal": "2027-03-07T08:00",
+          "hjemme": "KSF",
+          "ude": "Herlev",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -4079,18 +4031,6 @@
           "kampstart_lokal": "2027-03-28T08:00",
           "hjemme": "Hvidovre",
           "ude": "Gladsaxe Yetis",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-falcons-rodovre-2027-03-28-tbd",
-          "dato": "2027-03-28",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-rodovre-2027-03-28-tbd",
-          "kampstart_lokal": "2027-03-28T08:15",
-          "hjemme": "Falcons",
-          "ude": "Rødovre",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -5550,18 +5490,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-esbjerg-hvid-esbjerg-rod-2026-10-25-tbd",
-          "dato": "2026-10-25",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-hvid-esbjerg-rod-2026-10-25-tbd",
-          "kampstart_lokal": "2026-10-25T09:30",
-          "hjemme": "Esbjerg Hvid",
-          "ude": "Esbjerg Rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-esbjerg-hvid-odense-hvid-2026-10-25-tbd",
           "dato": "2026-10-25",
           "kilde": "https://boxplay.app/da/game/dk-esbjerg-hvid-odense-hvid-2026-10-25-tbd",
@@ -5604,6 +5532,18 @@
           "kampstart_lokal": "2026-10-25T09:30",
           "hjemme": "Esbjerg Hvid",
           "ude": "Herning Rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-hvid-esbjerg-rod-2026-10-25-tbd",
+          "dato": "2026-10-25",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-hvid-esbjerg-rod-2026-10-25-tbd",
+          "kampstart_lokal": "2026-10-25T09:30",
+          "hjemme": "Esbjerg Hvid",
+          "ude": "Esbjerg Rød",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -5778,24 +5718,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-frederikshavn-hvid-herning-hvid-2026-11-07-tbd",
-          "dato": "2026-11-07",
-          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-hvid-herning-hvid-2026-11-07-tbd",
-          "kampstart_lokal": "2026-11-07T13:00",
-          "hjemme": "Frederikshavn hvid",
-          "ude": "Herning Hvid",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-frederikshavn-hvid-frederikshavn-rod-2026-11-07-tbd",
           "dato": "2026-11-07",
           "kilde": "https://boxplay.app/da/game/dk-frederikshavn-hvid-frederikshavn-rod-2026-11-07-tbd",
           "kampstart_lokal": "2026-11-07T13:00",
           "hjemme": "Frederikshavn hvid",
           "ude": "Frederikshavn rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-frederikshavn-hvid-herning-hvid-2026-11-07-tbd",
+          "dato": "2026-11-07",
+          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-hvid-herning-hvid-2026-11-07-tbd",
+          "kampstart_lokal": "2026-11-07T13:00",
+          "hjemme": "Frederikshavn hvid",
+          "ude": "Herning Hvid",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -5982,18 +5922,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-hvid-aalborg-bla-2026-12-05-tbd",
-          "dato": "2026-12-05",
-          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-aalborg-bla-2026-12-05-tbd",
-          "kampstart_lokal": "2026-12-05T00:00",
-          "hjemme": "Odense Hvid",
-          "ude": "Aalborg Blå",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-hvid-aalborg-rod-2026-12-05-tbd",
           "dato": "2026-12-05",
           "kilde": "https://boxplay.app/da/game/dk-odense-hvid-aalborg-rod-2026-12-05-tbd",
@@ -6042,6 +5970,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-odense-hvid-aalborg-bla-2026-12-05-tbd",
+          "dato": "2026-12-05",
+          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-aalborg-bla-2026-12-05-tbd",
+          "kampstart_lokal": "2026-12-05T00:00",
+          "hjemme": "Odense Hvid",
+          "ude": "Aalborg Blå",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herning-hvid-herning-bla-2026-12-05-tbd",
           "dato": "2026-12-05",
           "kilde": "https://boxplay.app/da/game/dk-herning-hvid-herning-bla-2026-12-05-tbd",
@@ -6060,18 +6000,6 @@
           "kampstart_lokal": "2026-12-05T13:15",
           "hjemme": "Herning Hvid",
           "ude": "Frederikshavn rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-hvid-vojens-hvid-2026-12-05-tbd",
-          "dato": "2026-12-05",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-vojens-hvid-2026-12-05-tbd",
-          "kampstart_lokal": "2026-12-05T13:15",
-          "hjemme": "Herning Hvid",
-          "ude": "Vojens Hvid",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -6108,6 +6036,18 @@
           "kampstart_lokal": "2026-12-05T13:15",
           "hjemme": "Herning Hvid",
           "ude": "Herning Rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herning-hvid-vojens-hvid-2026-12-05-tbd",
+          "dato": "2026-12-05",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-vojens-hvid-2026-12-05-tbd",
+          "kampstart_lokal": "2026-12-05T13:15",
+          "hjemme": "Herning Hvid",
+          "ude": "Vojens Hvid",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -6907,24 +6847,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-herlev-ksf-2026-12-05-tbd",
-          "dato": "2026-12-05",
-          "kilde": "https://boxplay.app/da/game/dk-herlev-ksf-2026-12-05-tbd",
-          "kampstart_lokal": "2026-12-05T15:15",
-          "hjemme": "Herlev",
-          "ude": "KSF",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-gentofte-rungsted-2026-12-05-tbd",
           "dato": "2026-12-05",
           "kilde": "https://boxplay.app/da/game/dk-gentofte-rungsted-2026-12-05-tbd",
           "kampstart_lokal": "2026-12-05T15:15",
           "hjemme": "Gentofte",
           "ude": "Rungsted",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herlev-ksf-2026-12-05-tbd",
+          "dato": "2026-12-05",
+          "kilde": "https://boxplay.app/da/game/dk-herlev-ksf-2026-12-05-tbd",
+          "kampstart_lokal": "2026-12-05T15:15",
+          "hjemme": "Herlev",
+          "ude": "KSF",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -7051,84 +6991,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-rungsted-gladsaxe-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-gladsaxe-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Gladsaxe",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-amager-hvidovre-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-amager-hvidovre-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Amager",
-          "ude": "Hvidovre",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-rungsted-hvidovre-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-hvidovre-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Hvidovre",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herlev-amager-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-herlev-amager-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Herlev",
-          "ude": "Amager",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-rungsted-amager-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-amager-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Amager",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-hvidovre-amager-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-hvidovre-amager-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Hvidovre",
           "ude": "Amager",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-gladsaxe-rungsted-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-rungsted-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Gladsaxe",
-          "ude": "Rungsted",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -7147,12 +7015,84 @@
           "periodekode": null
         },
         {
+          "id": "dk-herlev-amager-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-herlev-amager-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Herlev",
+          "ude": "Amager",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-amager-hvidovre-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-amager-hvidovre-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Amager",
+          "ude": "Hvidovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-amager-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-amager-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Amager",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herlev-gladsaxe-yetis-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-herlev-gladsaxe-yetis-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Herlev",
           "ude": "Gladsaxe Yetis",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-gladsaxe-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-gladsaxe-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Gladsaxe",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-gladsaxe-rungsted-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-rungsted-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Gladsaxe",
+          "ude": "Rungsted",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-hvidovre-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-hvidovre-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Hvidovre",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -7225,6 +7165,18 @@
           "kampstart_lokal": "2027-01-09T17:00",
           "hjemme": "Hvidovre",
           "ude": "Herlev",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-gladsaxe-gladsaxe-yetis-2027-01-10-tbd",
+          "dato": "2027-01-10",
+          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-gladsaxe-yetis-2027-01-10-tbd",
+          "kampstart_lokal": "2027-01-10T09:50",
+          "hjemme": "Gladsaxe",
+          "ude": "Gladsaxe Yetis",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -8324,6 +8276,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-herning-hvid-frederikshavn-hvid-2026-10-11-tbd",
+          "dato": "2026-10-11",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-frederikshavn-hvid-2026-10-11-tbd",
+          "kampstart_lokal": "2026-10-11T11:15",
+          "hjemme": "Herning Hvid",
+          "ude": "Frederikshavn hvid",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herning-hvid-silkeborg-2026-10-11-tbd",
           "dato": "2026-10-11",
           "kilde": "https://boxplay.app/da/game/dk-herning-hvid-silkeborg-2026-10-11-tbd",
@@ -8342,18 +8306,6 @@
           "kampstart_lokal": "2026-10-11T11:15",
           "hjemme": "Herning Hvid",
           "ude": "Frederikshavn rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-hvid-frederikshavn-hvid-2026-10-11-tbd",
-          "dato": "2026-10-11",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-frederikshavn-hvid-2026-10-11-tbd",
-          "kampstart_lokal": "2026-10-11T11:15",
-          "hjemme": "Herning Hvid",
-          "ude": "Frederikshavn hvid",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9008,24 +8960,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-hvid-odense-rod-2026-12-13-tbd",
-          "dato": "2026-12-13",
-          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-odense-rod-2026-12-13-tbd",
-          "kampstart_lokal": "2026-12-13T00:00",
-          "hjemme": "Odense Hvid",
-          "ude": "Odense Rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-hvid-silkeborg-2026-12-13-tbd",
           "dato": "2026-12-13",
           "kilde": "https://boxplay.app/da/game/dk-odense-hvid-silkeborg-2026-12-13-tbd",
           "kampstart_lokal": "2026-12-13T00:00",
           "hjemme": "Odense Hvid",
           "ude": "Silkeborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-hvid-odense-rod-2026-12-13-tbd",
+          "dato": "2026-12-13",
+          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-odense-rod-2026-12-13-tbd",
+          "kampstart_lokal": "2026-12-13T00:00",
+          "hjemme": "Odense Hvid",
+          "ude": "Odense Rød",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9308,24 +9260,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-herning-hvid-aalborg-bla-2027-01-03-tbd",
-          "dato": "2027-01-03",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-aalborg-bla-2027-01-03-tbd",
-          "kampstart_lokal": "2027-01-03T00:00",
-          "hjemme": "Herning Hvid",
-          "ude": "Aalborg Blå",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-herning-hvid-herning-rod-2027-01-03-tbd",
           "dato": "2027-01-03",
           "kilde": "https://boxplay.app/da/game/dk-herning-hvid-herning-rod-2027-01-03-tbd",
           "kampstart_lokal": "2027-01-03T00:00",
           "hjemme": "Herning Hvid",
           "ude": "Herning Rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herning-hvid-aalborg-bla-2027-01-03-tbd",
+          "dato": "2027-01-03",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-aalborg-bla-2027-01-03-tbd",
+          "kampstart_lokal": "2027-01-03T00:00",
+          "hjemme": "Herning Hvid",
+          "ude": "Aalborg Blå",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9488,6 +9440,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-herning-hvid-silkeborg-2027-01-23-tbd",
+          "dato": "2027-01-23",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-silkeborg-2027-01-23-tbd",
+          "kampstart_lokal": "2027-01-23T00:00",
+          "hjemme": "Herning Hvid",
+          "ude": "Silkeborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herning-hvid-herning-bla-2027-01-23-tbd",
           "dato": "2027-01-23",
           "kilde": "https://boxplay.app/da/game/dk-herning-hvid-herning-bla-2027-01-23-tbd",
@@ -9506,18 +9470,6 @@
           "kampstart_lokal": "2027-01-23T00:00",
           "hjemme": "Odense Hvid",
           "ude": "Esbjerg Rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-hvid-silkeborg-2027-01-23-tbd",
-          "dato": "2027-01-23",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-silkeborg-2027-01-23-tbd",
-          "kampstart_lokal": "2027-01-23T00:00",
-          "hjemme": "Herning Hvid",
-          "ude": "Silkeborg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9608,6 +9560,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-aalborg-hvid-aalborg-rod-2027-01-24-tbd",
+          "dato": "2027-01-24",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-hvid-aalborg-rod-2027-01-24-tbd",
+          "kampstart_lokal": "2027-01-24T00:00",
+          "hjemme": "Aalborg Hvid",
+          "ude": "Aalborg Rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-aalborg-hvid-frederikshavn-hvid-2027-01-24-tbd",
           "dato": "2027-01-24",
           "kilde": "https://boxplay.app/da/game/dk-aalborg-hvid-frederikshavn-hvid-2027-01-24-tbd",
@@ -9650,18 +9614,6 @@
           "kampstart_lokal": "2027-01-24T00:00",
           "hjemme": "Aalborg Hvid",
           "ude": "Århus Hvid",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-aalborg-hvid-aalborg-rod-2027-01-24-tbd",
-          "dato": "2027-01-24",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-hvid-aalborg-rod-2027-01-24-tbd",
-          "kampstart_lokal": "2027-01-24T00:00",
-          "hjemme": "Aalborg Hvid",
-          "ude": "Aalborg Rød",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9752,24 +9704,36 @@
           "periodekode": null
         },
         {
-          "id": "dk-vojens-hvid-odense-hvid-2027-01-30-tbd",
-          "dato": "2027-01-30",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-hvid-odense-hvid-2027-01-30-tbd",
-          "kampstart_lokal": "2027-01-30T14:00",
-          "hjemme": "Vojens Hvid",
-          "ude": "Odense Hvid",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-vojens-hvid-arhus-hvid-2027-01-30-tbd",
           "dato": "2027-01-30",
           "kilde": "https://boxplay.app/da/game/dk-vojens-hvid-arhus-hvid-2027-01-30-tbd",
           "kampstart_lokal": "2027-01-30T14:00",
           "hjemme": "Vojens Hvid",
           "ude": "Århus Hvid",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-hvid-vojens-rod-2027-01-30-tbd",
+          "dato": "2027-01-30",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-hvid-vojens-rod-2027-01-30-tbd",
+          "kampstart_lokal": "2027-01-30T14:00",
+          "hjemme": "Vojens Hvid",
+          "ude": "Vojens Rød",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-hvid-odense-hvid-2027-01-30-tbd",
+          "dato": "2027-01-30",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-hvid-odense-hvid-2027-01-30-tbd",
+          "kampstart_lokal": "2027-01-30T14:00",
+          "hjemme": "Vojens Hvid",
+          "ude": "Odense Hvid",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9800,12 +9764,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-vojens-hvid-vojens-rod-2027-01-30-tbd",
-          "dato": "2027-01-30",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-hvid-vojens-rod-2027-01-30-tbd",
-          "kampstart_lokal": "2027-01-30T14:00",
-          "hjemme": "Vojens Hvid",
-          "ude": "Vojens Rød",
+          "id": "dk-herning-hvid-herning-bla-2027-01-31-tbd",
+          "dato": "2027-01-31",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-herning-bla-2027-01-31-tbd",
+          "kampstart_lokal": "2027-01-31T11:15",
+          "hjemme": "Herning Hvid",
+          "ude": "Herning Blå",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herning-hvid-frederikshavn-rod-2027-01-31-tbd",
+          "dato": "2027-01-31",
+          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-frederikshavn-rod-2027-01-31-tbd",
+          "kampstart_lokal": "2027-01-31T11:15",
+          "hjemme": "Herning Hvid",
+          "ude": "Frederikshavn rød",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -9836,30 +9812,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-herning-hvid-herning-bla-2027-01-31-tbd",
-          "dato": "2027-01-31",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-herning-bla-2027-01-31-tbd",
-          "kampstart_lokal": "2027-01-31T11:15",
-          "hjemme": "Herning Hvid",
-          "ude": "Herning Blå",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-hvid-frederikshavn-rod-2027-01-31-tbd",
-          "dato": "2027-01-31",
-          "kilde": "https://boxplay.app/da/game/dk-herning-hvid-frederikshavn-rod-2027-01-31-tbd",
-          "kampstart_lokal": "2027-01-31T11:15",
-          "hjemme": "Herning Hvid",
-          "ude": "Frederikshavn rød",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-herning-hvid-frederikshavn-hvid-2027-01-31-tbd",
           "dato": "2027-01-31",
           "kilde": "https://boxplay.app/da/game/dk-herning-hvid-frederikshavn-hvid-2027-01-31-tbd",
@@ -9884,6 +9836,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-odense-hvid-aalborg-bla-2027-02-06-tbd",
+          "dato": "2027-02-06",
+          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-aalborg-bla-2027-02-06-tbd",
+          "kampstart_lokal": "2027-02-06T00:00",
+          "hjemme": "Odense Hvid",
+          "ude": "Aalborg Blå",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-odense-hvid-odense-rod-2027-02-06-tbd",
           "dato": "2027-02-06",
           "kilde": "https://boxplay.app/da/game/dk-odense-hvid-odense-rod-2027-02-06-tbd",
@@ -9902,18 +9866,6 @@
           "kampstart_lokal": "2027-02-06T00:00",
           "hjemme": "Odense Hvid",
           "ude": "Odense blå",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-odense-hvid-aalborg-bla-2027-02-06-tbd",
-          "dato": "2027-02-06",
-          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-aalborg-bla-2027-02-06-tbd",
-          "kampstart_lokal": "2027-02-06T00:00",
-          "hjemme": "Odense Hvid",
-          "ude": "Aalborg Blå",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -12442,6 +12394,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-esbjerg-arhus-silkeborg-2026-12-06-tbd",
+          "dato": "2026-12-06",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-arhus-silkeborg-2026-12-06-tbd",
+          "kampstart_lokal": "2026-12-06T10:00",
+          "hjemme": "Esbjerg",
+          "ude": "Århus/Silkeborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-arhus-silkeborg-esbjerg-2026-12-12-tbd",
           "dato": "2026-12-12",
           "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-esbjerg-2026-12-12-tbd",
@@ -12460,6 +12424,18 @@
           "kampstart_lokal": "2026-12-13T10:30",
           "hjemme": "Aalborg",
           "ude": "Århus/Silkeborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-odense-2026-12-13-tbd",
+          "dato": "2026-12-13",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-odense-2026-12-13-tbd",
+          "kampstart_lokal": "2026-12-13T15:00",
+          "hjemme": "Vojens",
+          "ude": "Odense",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -12526,12 +12502,60 @@
           "periodekode": null
         },
         {
+          "id": "dk-frederikshavn-esbjerg-2026-12-20-tbd",
+          "dato": "2026-12-20",
+          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-esbjerg-2026-12-20-tbd",
+          "kampstart_lokal": "2026-12-20T13:15",
+          "hjemme": "Frederikshavn",
+          "ude": "Esbjerg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-arhus-silkeborg-2027-01-02-tbd",
+          "dato": "2027-01-02",
+          "kilde": "https://boxplay.app/da/game/dk-odense-arhus-silkeborg-2027-01-02-tbd",
+          "kampstart_lokal": "2027-01-02T12:45",
+          "hjemme": "Odense",
+          "ude": "Århus/Silkeborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-esbjerg-2027-01-03-tbd",
+          "dato": "2027-01-03",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-esbjerg-2027-01-03-tbd",
+          "kampstart_lokal": "2027-01-03T11:30",
+          "hjemme": "Vojens",
+          "ude": "Esbjerg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herning-frederikshavn-2027-01-09-tbd",
           "dato": "2027-01-09",
           "kilde": "https://boxplay.app/da/game/dk-herning-frederikshavn-2027-01-09-tbd",
           "kampstart_lokal": "2027-01-09T12:15",
           "hjemme": "Herning",
           "ude": "Frederikshavn",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-odense-2027-01-09-tbd",
+          "dato": "2027-01-09",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-odense-2027-01-09-tbd",
+          "kampstart_lokal": "2027-01-09T13:15",
+          "hjemme": "Esbjerg",
+          "ude": "Odense",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -12610,12 +12634,36 @@
           "periodekode": null
         },
         {
+          "id": "dk-esbjerg-vojens-2027-01-16-tbd",
+          "dato": "2027-01-16",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-vojens-2027-01-16-tbd",
+          "kampstart_lokal": "2027-01-16T13:15",
+          "hjemme": "Esbjerg",
+          "ude": "Vojens",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-vojens-herning-2027-01-17-tbd",
           "dato": "2027-01-17",
           "kilde": "https://boxplay.app/da/game/dk-vojens-herning-2027-01-17-tbd",
           "kampstart_lokal": "2027-01-17T11:45",
           "hjemme": "Vojens",
           "ude": "Herning",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-esbjerg-2027-01-17-tbd",
+          "dato": "2027-01-17",
+          "kilde": "https://boxplay.app/da/game/dk-odense-esbjerg-2027-01-17-tbd",
+          "kampstart_lokal": "2027-01-17T13:00",
+          "hjemme": "Odense",
+          "ude": "Esbjerg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -12772,6 +12820,18 @@
           "kampstart_lokal": "2027-02-20T12:45",
           "hjemme": "Frederikshavn",
           "ude": "Odense",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-arhus-silkeborg-2027-02-21-tbd",
+          "dato": "2027-02-21",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-arhus-silkeborg-2027-02-21-tbd",
+          "kampstart_lokal": "2027-02-21T10:00",
+          "hjemme": "Esbjerg",
+          "ude": "Århus/Silkeborg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -13299,9 +13359,9 @@
           "hjemme": "Gladsaxe",
           "ude": "Rødovre",
           "status": "live",
-          "mål_hjemme": 0,
-          "mål_ude": 0,
-          "periodekode": "1. Period • 00:00"
+          "mål_hjemme": 1,
+          "mål_ude": 12,
+          "periodekode": "3. Period • 45:00"
         },
         {
           "id": "dk-amager-herlev-2026-11-29-tbd",
@@ -13514,6 +13574,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Falcons",
           "ude": "Hvidovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-falcons-rungsted-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-rungsted-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Falcons",
+          "ude": "Rungsted",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -13890,6 +13962,18 @@
           "mål_hjemme": null,
           "mål_ude": null,
           "periodekode": null
+        },
+        {
+          "id": "dk-falcons-rodovre-2027-03-28-tbd",
+          "dato": "2027-03-28",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-rodovre-2027-03-28-tbd",
+          "kampstart_lokal": "2027-03-28T09:00",
+          "hjemme": "Falcons",
+          "ude": "Rødovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
         }
       ],
       "stilling": [
@@ -13899,11 +13983,11 @@
             {
               "placering": 1,
               "hold": "Rødovre",
-              "kampe": 7,
-              "sejre": 7,
+              "kampe": 8,
+              "sejre": 8,
               "nederlag": 0,
-              "målforskel": 69,
-              "point": 21
+              "målforskel": 80,
+              "point": 24
             },
             {
               "placering": 2,
@@ -13971,10 +14055,10 @@
             {
               "placering": 9,
               "hold": "Gladsaxe",
-              "kampe": 3,
+              "kampe": 4,
               "sejre": 0,
-              "nederlag": 3,
-              "målforskel": -37,
+              "nederlag": 4,
+              "målforskel": -48,
               "point": 0
             }
           ]
@@ -14688,16 +14772,16 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-vojens-2026-11-27-tbd",
+          "id": "dk-odense-vojens-2026-11-27-77516",
           "dato": "2026-11-27",
-          "kilde": "https://boxplay.app/da/game/dk-odense-vojens-2026-11-27-tbd",
-          "kampstart_lokal": "2026-11-27T19:00",
+          "kilde": "https://boxplay.app/da/game/dk-odense-vojens-2026-11-27-77516",
+          "kampstart_lokal": null,
           "hjemme": "Odense",
           "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
+          "status": "live",
+          "mål_hjemme": 6,
+          "mål_ude": 2,
+          "periodekode": "3. Period • 60:00"
         },
         {
           "id": "dk-arhus-silkeborg-odense-2026-11-28-tbd",
@@ -14705,42 +14789,6 @@
           "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-odense-2026-11-28-tbd",
           "kampstart_lokal": "2026-11-28T14:30",
           "hjemme": "Århus/Silkeborg",
-          "ude": "Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-odense-2026-12-06-tbd",
-          "dato": "2026-12-06",
-          "kilde": "https://boxplay.app/da/game/dk-herning-odense-2026-12-06-tbd",
-          "kampstart_lokal": "2026-12-06T12:00",
-          "hjemme": "Herning",
-          "ude": "Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-esbjerg-arhus-silkeborg-2026-12-06-tbd",
-          "dato": "2026-12-06",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-arhus-silkeborg-2026-12-06-tbd",
-          "kampstart_lokal": "2026-12-06T12:30",
-          "hjemme": "Esbjerg",
-          "ude": "Århus/Silkeborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-aalborg-odense-2026-12-12-tbd",
-          "dato": "2026-12-12",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-odense-2026-12-12-tbd",
-          "kampstart_lokal": "2026-12-12T13:00",
-          "hjemme": "Aalborg",
           "ude": "Odense",
           "status": "planlagt",
           "mål_hjemme": null,
@@ -14760,42 +14808,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-esbjerg-herning-2026-12-13-tbd",
-          "dato": "2026-12-13",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herning-2026-12-13-tbd",
-          "kampstart_lokal": "2026-12-13T10:00",
-          "hjemme": "Esbjerg",
-          "ude": "Herning",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-vojens-odense-2026-12-13-tbd",
-          "dato": "2026-12-13",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-odense-2026-12-13-tbd",
-          "kampstart_lokal": "2026-12-13T17:15",
-          "hjemme": "Vojens",
-          "ude": "Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-aalborg-vojens-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-vojens-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Aalborg",
-          "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-vojens-arhus-silkeborg-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-vojens-arhus-silkeborg-2026-12-24-tbd",
@@ -14808,12 +14820,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-aalborg-arhus-silkeborg-2026-12-24-tbd",
+          "id": "dk-arhus-silkeborg-aalborg-2026-12-24-tbd",
           "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-arhus-silkeborg-2026-12-24-tbd",
+          "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-aalborg-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Aalborg",
-          "ude": "Århus/Silkeborg",
+          "hjemme": "Århus/Silkeborg",
+          "ude": "Aalborg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -14832,24 +14844,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-aalborg-esbjerg-2026-12-24-tbd",
+          "id": "dk-aalborg-arhus-silkeborg-2026-12-24-tbd",
           "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-esbjerg-2026-12-24-tbd",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-arhus-silkeborg-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Aalborg",
-          "ude": "Esbjerg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-arhus-silkeborg-aalborg-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-aalborg-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Århus/Silkeborg",
-          "ude": "Aalborg",
+          "ude": "Århus/Silkeborg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -14880,30 +14880,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-aalborg-vojens-2027-01-02-tbd",
-          "dato": "2027-01-02",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-vojens-2027-01-02-tbd",
-          "kampstart_lokal": "2027-01-02T13:00",
-          "hjemme": "Aalborg",
-          "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-odense-arhus-silkeborg-2027-01-02-tbd",
-          "dato": "2027-01-02",
-          "kilde": "https://boxplay.app/da/game/dk-odense-arhus-silkeborg-2027-01-02-tbd",
-          "kampstart_lokal": "2027-01-02T15:00",
-          "hjemme": "Odense",
-          "ude": "Århus/Silkeborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-arhus-silkeborg-aalborg-2027-01-03-tbd",
           "dato": "2027-01-03",
           "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-aalborg-2027-01-03-tbd",
@@ -14916,72 +14892,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-herning-2027-01-03-tbd",
-          "dato": "2027-01-03",
-          "kilde": "https://boxplay.app/da/game/dk-odense-herning-2027-01-03-tbd",
-          "kampstart_lokal": "2027-01-03T13:00",
-          "hjemme": "Odense",
-          "ude": "Herning",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-vojens-esbjerg-2027-01-03-tbd",
-          "dato": "2027-01-03",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-esbjerg-2027-01-03-tbd",
-          "kampstart_lokal": "2027-01-03T13:45",
-          "hjemme": "Vojens",
-          "ude": "Esbjerg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-esbjerg-odense-2027-01-09-tbd",
-          "dato": "2027-01-09",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-odense-2027-01-09-tbd",
-          "kampstart_lokal": "2027-01-09T15:30",
-          "hjemme": "Esbjerg",
-          "ude": "Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-vojens-arhus-silkeborg-2027-01-09-tbd",
           "dato": "2027-01-09",
           "kilde": "https://boxplay.app/da/game/dk-vojens-arhus-silkeborg-2027-01-09-tbd",
           "kampstart_lokal": "2027-01-09T17:00",
           "hjemme": "Vojens",
           "ude": "Århus/Silkeborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-esbjerg-vojens-2027-01-16-tbd",
-          "dato": "2027-01-16",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-vojens-2027-01-16-tbd",
-          "kampstart_lokal": "2027-01-16T15:30",
-          "hjemme": "Esbjerg",
-          "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-odense-esbjerg-2027-01-17-tbd",
-          "dato": "2027-01-17",
-          "kilde": "https://boxplay.app/da/game/dk-odense-esbjerg-2027-01-17-tbd",
-          "kampstart_lokal": "2027-01-17T15:15",
-          "hjemme": "Odense",
-          "ude": "Esbjerg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -15012,18 +14928,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-herning-aalborg-2027-01-30-tbd",
-          "dato": "2027-01-30",
-          "kilde": "https://boxplay.app/da/game/dk-herning-aalborg-2027-01-30-tbd",
-          "kampstart_lokal": "2027-01-30T12:15",
-          "hjemme": "Herning",
-          "ude": "Aalborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-aalborg-herning-2027-01-31-tbd",
           "dato": "2027-01-31",
           "kilde": "https://boxplay.app/da/game/dk-aalborg-herning-2027-01-31-tbd",
@@ -15048,84 +14952,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-aalborg-esbjerg-2027-02-14-tbd",
-          "dato": "2027-02-14",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-esbjerg-2027-02-14-tbd",
-          "kampstart_lokal": "2027-02-14T11:45",
-          "hjemme": "Aalborg",
-          "ude": "Esbjerg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-herning-vojens-2027-02-20-tbd",
-          "dato": "2027-02-20",
-          "kilde": "https://boxplay.app/da/game/dk-herning-vojens-2027-02-20-tbd",
-          "kampstart_lokal": "2027-02-20T12:15",
-          "hjemme": "Herning",
-          "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-vojens-aalborg-2027-02-21-tbd",
-          "dato": "2027-02-21",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-aalborg-2027-02-21-tbd",
-          "kampstart_lokal": "2027-02-21T11:45",
-          "hjemme": "Vojens",
-          "ude": "Aalborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-esbjerg-arhus-silkeborg-2027-02-21-tbd",
-          "dato": "2027-02-21",
-          "kilde": "https://boxplay.app/da/game/dk-esbjerg-arhus-silkeborg-2027-02-21-tbd",
-          "kampstart_lokal": "2027-02-21T12:30",
-          "hjemme": "Esbjerg",
-          "ude": "Århus/Silkeborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-vojens-aalborg-2027-02-25-tbd",
-          "dato": "2027-02-25",
-          "kilde": "https://boxplay.app/da/game/dk-vojens-aalborg-2027-02-25-tbd",
-          "kampstart_lokal": "2027-02-25T16:30",
-          "hjemme": "Vojens",
-          "ude": "Aalborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-arhus-silkeborg-aalborg-2027-02-27-tbd",
           "dato": "2027-02-27",
           "kilde": "https://boxplay.app/da/game/dk-arhus-silkeborg-aalborg-2027-02-27-tbd",
           "kampstart_lokal": "2027-02-27T14:30",
           "hjemme": "Århus/Silkeborg",
           "ude": "Aalborg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-aalborg-odense-2027-02-28-tbd",
-          "dato": "2027-02-28",
-          "kilde": "https://boxplay.app/da/game/dk-aalborg-odense-2027-02-28-tbd",
-          "kampstart_lokal": "2027-02-28T11:45",
-          "hjemme": "Aalborg",
-          "ude": "Odense",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -15181,11 +15013,11 @@
             {
               "placering": 3,
               "hold": "Odense",
-              "kampe": 9,
-              "sejre": 5,
+              "kampe": 10,
+              "sejre": 6,
               "nederlag": 4,
-              "målforskel": 9,
-              "point": 15
+              "målforskel": 13,
+              "point": 18
             },
             {
               "placering": 4,
@@ -15199,10 +15031,10 @@
             {
               "placering": 5,
               "hold": "Vojens",
-              "kampe": 7,
+              "kampe": 8,
               "sejre": 1,
-              "nederlag": 6,
-              "målforskel": -25,
+              "nederlag": 7,
+              "målforskel": -29,
               "point": 3
             },
             {
@@ -15354,7 +15186,7 @@
           "kilde": "https://boxplay.app/da/game/dk-falcons-malmo-red-hawks-2026-12-20-tbd",
           "kampstart_lokal": "2026-12-20T11:15",
           "hjemme": "Falcons",
-          "ude": "Malmo Red Hawks",
+          "ude": "Malmó Red Hawks",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -16288,16 +16120,16 @@
           "periodekode": null
         },
         {
-          "id": "dk-ak-ishockey-rodovre-2026-11-27-tbd",
+          "id": "dk-ak-ishockey-rodovre-2026-11-27-76987",
           "dato": "2026-11-27",
-          "kilde": "https://boxplay.app/da/game/dk-ak-ishockey-rodovre-2026-11-27-tbd",
-          "kampstart_lokal": "2026-11-27T19:30",
+          "kilde": "https://boxplay.app/da/game/dk-ak-ishockey-rodovre-2026-11-27-76987",
+          "kampstart_lokal": null,
           "hjemme": "AK Ishockey",
           "ude": "Rødovre",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
+          "status": "live",
+          "mål_hjemme": 1,
+          "mål_ude": 4,
+          "periodekode": "3. Period • 59:55"
         },
         {
           "id": "dk-rungsted-ak-ishockey-2026-12-02-tbd",
@@ -16426,6 +16258,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Rungsted",
           "ude": "AK Ishockey",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-rodovre-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-rodovre-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Rødovre",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -16751,11 +16595,11 @@
             {
               "placering": 1,
               "hold": "Rødovre",
-              "kampe": 9,
-              "sejre": 8,
+              "kampe": 10,
+              "sejre": 9,
               "nederlag": 0,
-              "målforskel": 42,
-              "point": 25
+              "målforskel": 45,
+              "point": 28
             },
             {
               "placering": 2,
@@ -16778,10 +16622,10 @@
             {
               "placering": 4,
               "hold": "AK Ishockey",
-              "kampe": 9,
+              "kampe": 10,
               "sejre": 0,
-              "nederlag": 7,
-              "målforskel": -24,
+              "nederlag": 8,
+              "målforskel": -27,
               "point": 4
             }
           ]
@@ -16804,7 +16648,7 @@
           "kilde": "https://boxplay.app/da/game/dk-rodovre-malmo-red-hawks-2026-08-16-tbd",
           "kampstart_lokal": "2026-08-16T10:00",
           "hjemme": "Rødovre",
-          "ude": "Malmo Red Hawks",
+          "ude": "Malmó Red Hawks",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -18579,18 +18423,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-rungsted-herlev-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-herlev-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-herlev-ak-ishockey-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-herlev-ak-ishockey-2026-12-24-tbd",
@@ -18663,18 +18495,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-rungsted-falcons-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-falcons-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Falcons",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-falcons-gentofte-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-falcons-gentofte-2026-12-24-tbd",
@@ -18735,24 +18555,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-rodovre-falcons-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rodovre-falcons-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rødovre",
-          "ude": "Falcons",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-ak-ishockey-rodovre-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-ak-ishockey-rodovre-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "AK Ishockey",
           "ude": "Rødovre",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rodovre-falcons-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rodovre-falcons-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rødovre",
+          "ude": "Falcons",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -18807,36 +18627,12 @@
           "periodekode": null
         },
         {
-          "id": "dk-falcons-rungsted-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-rungsted-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Falcons",
-          "ude": "Rungsted",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-ak-ishockey-herlev-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-ak-ishockey-herlev-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "AK Ishockey",
           "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
-          "id": "dk-rungsted-rodovre-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-rungsted-rodovre-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Rungsted",
-          "ude": "Rødovre",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -19739,11 +19535,47 @@
           "periodekode": null
         },
         {
+          "id": "dk-herning-odense-2026-12-06-tbd",
+          "dato": "2026-12-06",
+          "kilde": "https://boxplay.app/da/game/dk-herning-odense-2026-12-06-tbd",
+          "kampstart_lokal": "2026-12-06T14:15",
+          "hjemme": "Herning",
+          "ude": "Odense",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-vojens-herning-2026-12-12-tbd",
           "dato": "2026-12-12",
           "kilde": "https://boxplay.app/da/game/dk-vojens-herning-2026-12-12-tbd",
           "kampstart_lokal": "2026-12-12T10:00",
           "hjemme": "Vojens",
+          "ude": "Herning",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-aalborg-odense-2026-12-12-tbd",
+          "dato": "2026-12-12",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-odense-2026-12-12-tbd",
+          "kampstart_lokal": "2026-12-12T15:15",
+          "hjemme": "Aalborg",
+          "ude": "Odense",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-esbjerg-herning-2026-12-13-tbd",
+          "dato": "2026-12-13",
+          "kilde": "https://boxplay.app/da/game/dk-esbjerg-herning-2026-12-13-tbd",
+          "kampstart_lokal": "2026-12-13T12:00",
+          "hjemme": "Esbjerg",
           "ude": "Herning",
           "status": "planlagt",
           "mål_hjemme": null,
@@ -19769,6 +19601,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Aalborg",
           "ude": "Herning",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-aalborg-vojens-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-vojens-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Aalborg",
+          "ude": "Vojens",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -19811,6 +19655,42 @@
           "periodekode": null
         },
         {
+          "id": "dk-aalborg-esbjerg-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-esbjerg-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Aalborg",
+          "ude": "Esbjerg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-aalborg-vojens-2027-01-02-tbd",
+          "dato": "2027-01-02",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-vojens-2027-01-02-tbd",
+          "kampstart_lokal": "2027-01-02T15:15",
+          "hjemme": "Aalborg",
+          "ude": "Vojens",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-herning-2027-01-03-tbd",
+          "dato": "2027-01-03",
+          "kilde": "https://boxplay.app/da/game/dk-odense-herning-2027-01-03-tbd",
+          "kampstart_lokal": "2027-01-03T15:15",
+          "hjemme": "Odense",
+          "ude": "Herning",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-vojens-odense-2027-01-13-tbd",
           "dato": "2027-01-13",
           "kilde": "https://boxplay.app/da/game/dk-vojens-odense-2027-01-13-tbd",
@@ -19835,12 +19715,60 @@
           "periodekode": null
         },
         {
+          "id": "dk-aalborg-esbjerg-2027-02-14-tbd",
+          "dato": "2027-02-14",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-esbjerg-2027-02-14-tbd",
+          "kampstart_lokal": "2027-02-14T14:00",
+          "hjemme": "Aalborg",
+          "ude": "Esbjerg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-herning-esbjerg-2027-02-20-tbd",
           "dato": "2027-02-20",
           "kilde": "https://boxplay.app/da/game/dk-herning-esbjerg-2027-02-20-tbd",
           "kampstart_lokal": "2027-02-20T11:45",
           "hjemme": "Herning",
           "ude": "Esbjerg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-herning-vojens-2027-02-20-tbd",
+          "dato": "2027-02-20",
+          "kilde": "https://boxplay.app/da/game/dk-herning-vojens-2027-02-20-tbd",
+          "kampstart_lokal": "2027-02-20T14:30",
+          "hjemme": "Herning",
+          "ude": "Vojens",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-aalborg-2027-02-25-tbd",
+          "dato": "2027-02-25",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-aalborg-2027-02-25-tbd",
+          "kampstart_lokal": "2027-02-25T18:45",
+          "hjemme": "Vojens",
+          "ude": "Aalborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-aalborg-odense-2027-02-28-tbd",
+          "dato": "2027-02-28",
+          "kilde": "https://boxplay.app/da/game/dk-aalborg-odense-2027-02-28-tbd",
+          "kampstart_lokal": "2027-02-28T14:00",
+          "hjemme": "Aalborg",
+          "ude": "Odense",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -21690,6 +21618,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-herning-esbjerg-2026-11-27-75925",
+          "dato": "2026-11-27",
+          "kilde": "https://boxplay.app/da/game/dk-herning-esbjerg-2026-11-27-75925",
+          "kampstart_lokal": null,
+          "hjemme": "Herning",
+          "ude": "Esbjerg",
+          "status": "live",
+          "mål_hjemme": 3,
+          "mål_ude": 1,
+          "periodekode": "3. Period • 60:00"
+        },
+        {
           "id": "dk-vojens-frederikshavn-2026-11-27-75909",
           "dato": "2026-11-27",
           "kilde": "https://boxplay.app/da/game/dk-vojens-frederikshavn-2026-11-27-75909",
@@ -21697,21 +21637,9 @@
           "hjemme": "Vojens",
           "ude": "Frederikshavn",
           "status": "live",
-          "mål_hjemme": 0,
-          "mål_ude": 0,
-          "periodekode": "1. Period • 00:00"
-        },
-        {
-          "id": "dk-herning-esbjerg-2026-11-27-tbd",
-          "dato": "2026-11-27",
-          "kilde": "https://boxplay.app/da/game/dk-herning-esbjerg-2026-11-27-tbd",
-          "kampstart_lokal": "2026-11-27T19:00",
-          "hjemme": "Herning",
-          "ude": "Esbjerg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
+          "mål_hjemme": 2,
+          "mål_ude": 6,
+          "periodekode": "3. Period • 60:00"
         },
         {
           "id": "dk-vojens-aalborg-2026-11-29-75900",
@@ -21916,18 +21844,6 @@
           "mål_hjemme": null,
           "mål_ude": null,
           "periodekode": null
-        },
-        {
-          "id": "dk-frederikshavn-esbjerg-2026-12-20-tbd",
-          "dato": "2026-12-20",
-          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-esbjerg-2026-12-20-tbd",
-          "kampstart_lokal": "2026-12-20T13:30",
-          "hjemme": "Frederikshavn",
-          "ude": "Esbjerg",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
         }
       ],
       "stilling": [
@@ -21946,11 +21862,11 @@
             {
               "placering": 2,
               "hold": "Herning",
-              "kampe": 13,
-              "sejre": 8,
+              "kampe": 14,
+              "sejre": 9,
               "nederlag": 4,
-              "målforskel": 17,
-              "point": 26
+              "målforskel": 19,
+              "point": 29
             },
             {
               "placering": 3,
@@ -21964,28 +21880,28 @@
             {
               "placering": 4,
               "hold": "Frederikshavn",
-              "kampe": 13,
-              "sejre": 6,
+              "kampe": 14,
+              "sejre": 7,
               "nederlag": 6,
-              "målforskel": 9,
-              "point": 20
+              "målforskel": 13,
+              "point": 23
             },
             {
               "placering": 5,
               "hold": "Esbjerg",
-              "kampe": 15,
+              "kampe": 16,
               "sejre": 5,
-              "nederlag": 8,
-              "målforskel": -7,
+              "nederlag": 9,
+              "målforskel": -9,
               "point": 18
             },
             {
               "placering": 6,
               "hold": "Vojens",
-              "kampe": 15,
+              "kampe": 16,
               "sejre": 0,
-              "nederlag": 14,
-              "målforskel": -68,
+              "nederlag": 15,
+              "målforskel": -72,
               "point": 1
             }
           ]
@@ -22136,6 +22052,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-rungsted-herlev-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-herlev-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Herlev",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-rodovre-kha-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-rodovre-kha-2026-12-24-tbd",
@@ -22178,6 +22106,18 @@
           "kampstart_lokal": "2027-01-05T19:25",
           "hjemme": "Rødovre",
           "ude": "Herlev",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rodovre-kha-2027-01-07-tbd",
+          "dato": "2027-01-07",
+          "kilde": "https://boxplay.app/da/game/dk-rodovre-kha-2027-01-07-tbd",
+          "kampstart_lokal": "2027-01-07T19:30",
+          "hjemme": "Rødovre",
+          "ude": "KHA",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -23661,18 +23601,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-falcons-u8-rungsted-bla-u8-2026-10-04-tbd",
-          "dato": "2026-10-04",
-          "kilde": "https://boxplay.app/da/game/dk-falcons-u8-rungsted-bla-u8-2026-10-04-tbd",
-          "kampstart_lokal": "2026-10-04T12:30",
-          "hjemme": "Falcons U8",
-          "ude": "Rungsted blå U8",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-ksf-u8-rungsted-hvid-u8-2026-10-04-tbd",
           "dato": "2026-10-04",
           "kilde": "https://boxplay.app/da/game/dk-ksf-u8-rungsted-hvid-u8-2026-10-04-tbd",
@@ -23691,6 +23619,18 @@
           "kampstart_lokal": "2026-10-04T12:30",
           "hjemme": "Rødovre U8",
           "ude": "Hvidovre U8",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-falcons-u8-rungsted-bla-u8-2026-10-04-tbd",
+          "dato": "2026-10-04",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-u8-rungsted-bla-u8-2026-10-04-tbd",
+          "kampstart_lokal": "2026-10-04T12:30",
+          "hjemme": "Falcons U8",
+          "ude": "Rungsted blå U8",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -25438,24 +25378,24 @@
           "periodekode": null
         },
         {
-          "id": "dk-odense-hvid-vojens-2027-02-20-tbd",
-          "dato": "2027-02-20",
-          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-vojens-2027-02-20-tbd",
-          "kampstart_lokal": "2027-02-20T00:00",
-          "hjemme": "Odense Hvid",
-          "ude": "Vojens",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-hvid-herning-hvid-2027-02-20-tbd",
           "dato": "2027-02-20",
           "kilde": "https://boxplay.app/da/game/dk-odense-hvid-herning-hvid-2027-02-20-tbd",
           "kampstart_lokal": "2027-02-20T00:00",
           "hjemme": "Odense Hvid",
           "ude": "Herning Hvid",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-odense-hvid-vojens-2027-02-20-tbd",
+          "dato": "2027-02-20",
+          "kilde": "https://boxplay.app/da/game/dk-odense-hvid-vojens-2027-02-20-tbd",
+          "kampstart_lokal": "2027-02-20T00:00",
+          "hjemme": "Odense Hvid",
+          "ude": "Vojens",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -25907,12 +25847,36 @@
           "periodekode": null
         },
         {
+          "id": "dk-falcons-gladsaxe-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-gladsaxe-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Falcons",
+          "ude": "Gladsaxe",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-ksf-falcons-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-ksf-falcons-2026-12-24-tbd",
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "KSF",
           "ude": "Falcons",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-falcons-ksf-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-falcons-ksf-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Falcons",
+          "ude": "KSF",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -28018,16 +27982,16 @@
           "periodekode": null
         },
         {
-          "id": "dk-kha-herlev-2026-11-27-tbd",
+          "id": "dk-kha-herlev-2026-11-27-76355",
           "dato": "2026-11-27",
-          "kilde": "https://boxplay.app/da/game/dk-kha-herlev-2026-11-27-tbd",
-          "kampstart_lokal": "2026-11-27T20:00",
+          "kilde": "https://boxplay.app/da/game/dk-kha-herlev-2026-11-27-76355",
+          "kampstart_lokal": null,
           "hjemme": "KHA",
           "ude": "Herlev",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
+          "status": "live",
+          "mål_hjemme": 5,
+          "mål_ude": 4,
+          "periodekode": "4. Period • 63:41"
         },
         {
           "id": "dk-rodovre-herning-2026-11-28-tbd",
@@ -28042,15 +28006,15 @@
           "periodekode": null
         },
         {
-          "id": "dk-frederikshavn-odense-2026-11-28-tbd",
+          "id": "dk-frederikshavn-odense-2026-11-28-76450",
           "dato": "2026-11-28",
-          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-odense-2026-11-28-tbd",
+          "kilde": "https://boxplay.app/da/game/dk-frederikshavn-odense-2026-11-28-76450",
           "kampstart_lokal": "2026-11-28T15:30",
           "hjemme": "Frederikshavn",
           "ude": "Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
+          "status": "afsluttet",
+          "mål_hjemme": 0,
+          "mål_ude": 0,
           "periodekode": null
         },
         {
@@ -29144,11 +29108,11 @@
             {
               "placering": 4,
               "hold": "Herlev",
-              "kampe": 15,
+              "kampe": 16,
               "sejre": 10,
               "nederlag": 2,
-              "målforskel": 58,
-              "point": 35
+              "målforskel": 57,
+              "point": 36
             },
             {
               "placering": 5,
@@ -29171,11 +29135,11 @@
             {
               "placering": 7,
               "hold": "KHA",
-              "kampe": 18,
+              "kampe": 19,
               "sejre": 8,
               "nederlag": 7,
-              "målforskel": 19,
-              "point": 29
+              "målforskel": 20,
+              "point": 31
             },
             {
               "placering": 8,
@@ -30007,6 +29971,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-herning-aalborg-2027-01-30-tbd",
+          "dato": "2027-01-30",
+          "kilde": "https://boxplay.app/da/game/dk-herning-aalborg-2027-01-30-tbd",
+          "kampstart_lokal": "2027-01-30T14:30",
+          "hjemme": "Herning",
+          "ude": "Aalborg",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-vojens-esbjerg-2027-01-30-tbd",
           "dato": "2027-01-30",
           "kilde": "https://boxplay.app/da/game/dk-vojens-esbjerg-2027-01-30-tbd",
@@ -30061,6 +30037,18 @@
           "kampstart_lokal": "2027-02-20T19:30",
           "hjemme": "Silkeborg",
           "ude": "Herning",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-vojens-aalborg-2027-02-21-tbd",
+          "dato": "2027-02-21",
+          "kilde": "https://boxplay.app/da/game/dk-vojens-aalborg-2027-02-21-tbd",
+          "kampstart_lokal": "2027-02-21T14:15",
+          "hjemme": "Vojens",
+          "ude": "Aalborg",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -31897,18 +31885,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-gladsaxe-yetis-ksf-u23-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-ksf-u23-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Gladsaxe Yetis",
-          "ude": "KSF U23",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-gladsaxe-yetis-rodovre-black-bulls-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-rodovre-black-bulls-2026-12-24-tbd",
@@ -31939,6 +31915,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Rødovre Black Bulls",
           "ude": "Armadillos",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-gladsaxe-yetis-ksf-u23-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-gladsaxe-yetis-ksf-u23-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Gladsaxe Yetis",
+          "ude": "KSF U23",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -32161,18 +32149,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-armadillos-rodovre-black-bulls-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-armadillos-rodovre-black-bulls-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Armadillos",
-          "ude": "Rødovre Black Bulls",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-rodovre-black-bulls-ksf-m2-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-rodovre-black-bulls-ksf-m2-2026-12-24-tbd",
@@ -32227,6 +32203,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Rødovre Black Bulls",
           "ude": "Low Flyers",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-armadillos-rodovre-black-bulls-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-armadillos-rodovre-black-bulls-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Armadillos",
+          "ude": "Rødovre Black Bulls",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -32515,6 +32503,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Falcons",
           "ude": "Rødovre Black Bulls",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-ksf-u23-gladsaxe-yetis-2027-01-23-tbd",
+          "dato": "2027-01-23",
+          "kilde": "https://boxplay.app/da/game/dk-ksf-u23-gladsaxe-yetis-2027-01-23-tbd",
+          "kampstart_lokal": "2027-01-23T17:10",
+          "hjemme": "KSF U23",
+          "ude": "Gladsaxe Yetis",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -32966,18 +32966,6 @@
           "periodekode": null
         },
         {
-          "id": "dk-silkeborg-hca-odense-2026-12-24-tbd",
-          "dato": "2026-12-24",
-          "kilde": "https://boxplay.app/da/game/dk-silkeborg-hca-odense-2026-12-24-tbd",
-          "kampstart_lokal": "2026-12-24T00:00",
-          "hjemme": "Silkeborg",
-          "ude": "HCA Odense",
-          "status": "planlagt",
-          "mål_hjemme": null,
-          "mål_ude": null,
-          "periodekode": null
-        },
-        {
           "id": "dk-odense-esbjerg-stags-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-odense-esbjerg-stags-2026-12-24-tbd",
@@ -33008,6 +32996,18 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Odense Bluedogs",
           "ude": "Esbjerg Stags",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-silkeborg-hca-odense-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-silkeborg-hca-odense-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Silkeborg",
+          "ude": "HCA Odense",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -33707,6 +33707,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-rungsted-falcons-2026-12-13-tbd",
+          "dato": "2026-12-13",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-falcons-2026-12-13-tbd",
+          "kampstart_lokal": "2026-12-13T18:15",
+          "hjemme": "Rungsted",
+          "ude": "Falcons",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-ksf-gentofte-2026-12-16-tbd",
           "dato": "2026-12-16",
           "kilde": "https://boxplay.app/da/game/dk-ksf-gentofte-2026-12-16-tbd",
@@ -33725,6 +33737,30 @@
           "kampstart_lokal": "2026-12-24T00:00",
           "hjemme": "Gentofte",
           "ude": "KSF",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-gentofte-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-gentofte-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Gentofte",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-gentofte-falcons-2027-01-10-tbd",
+          "dato": "2027-01-10",
+          "kilde": "https://boxplay.app/da/game/dk-gentofte-falcons-2027-01-10-tbd",
+          "kampstart_lokal": "2027-01-10T20:15",
+          "hjemme": "Gentofte",
+          "ude": "Falcons",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
@@ -34464,6 +34500,18 @@
           "periodekode": null
         },
         {
+          "id": "dk-rungsted-falcons-2026-12-24-tbd",
+          "dato": "2026-12-24",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-falcons-2026-12-24-tbd",
+          "kampstart_lokal": "2026-12-24T00:00",
+          "hjemme": "Rungsted",
+          "ude": "Falcons",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
           "id": "dk-gentofte-stars-herlev-gladiators-2026-12-24-tbd",
           "dato": "2026-12-24",
           "kilde": "https://boxplay.app/da/game/dk-gentofte-stars-herlev-gladiators-2026-12-24-tbd",
@@ -34914,6 +34962,18 @@
           "kampstart_lokal": "2027-02-14T20:00",
           "hjemme": "Herlev",
           "ude": "Herlev Gladiators",
+          "status": "planlagt",
+          "mål_hjemme": null,
+          "mål_ude": null,
+          "periodekode": null
+        },
+        {
+          "id": "dk-rungsted-yetis-2027-02-21-tbd",
+          "dato": "2027-02-21",
+          "kilde": "https://boxplay.app/da/game/dk-rungsted-yetis-2027-02-21-tbd",
+          "kampstart_lokal": "2027-02-21T18:15",
+          "hjemme": "Rungsted",
+          "ude": "Yetis",
           "status": "planlagt",
           "mål_hjemme": null,
           "mål_ude": null,
